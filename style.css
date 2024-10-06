@@ -1,0 +1,48 @@
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(184, 95, 206);
+    margin: auto;
+    padding: 12px;
+    border-radius: 18%;
+    text-shadow: none;
+}
+.formulario {
+    background: linear-gradient(#FFE4E1,#DB7093);
+}
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 20px 0 10px;
+    font-family: 'Gotu', sans-serif;
+    font-weight: bold;
+}
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    width: 50%;
+    padding: 10px;
+
+}
+.enviar {
+    width:10%;
+    padding: 15px 0;
+    background: #FF1493;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.table-container{
+    display: flex;
+    justify-content: center;
+}
+tr, td{
+    font-family: Arial;
+}
+body{
+    background-image:url(https://img.freepik.com/fotos-premium/fundo-branco-desfocado-abstrato-com-diferentes-tons-de-cor_476363-3464.jpg?w=900 ) ;
+}

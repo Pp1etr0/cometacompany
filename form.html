@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> formularios</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+    <h1><b> formulario</b></h1>
+    <section class="formulario">
+    <form nome="form-cadastro" accept-charset="UTF-8">
+
+    <label for="txtNome">Nome:</label>
+    <input type="text" id="txtNome" placeholder="Digite seu nome" size="30" required class="input-padrao"><br>
+
+    <label for="txtSobrenome">Sobrenome:</label>
+    <input type="text" id="txtSobrenome" placeholder="Digite seu sobrenome" size="30" required class="input-padrao"><br>
+
+    <label for="txtEmail">Email: </label>
+    <input type="email" id="txtEmail" required class="input-padrao"><br>
+
+    <label for="txtSenha">Senha</label>
+    <input type="password" id="txtSenha" maxlength="5" minlength="3" required class="input-padrao"><br>
+
+    <label for="txtData">Data de Nascimento:</label>
+    <input type="date" id="txtData" required class="input-padrao">
+
+    <br><input type="submit" value="Enviar Dado" class="Enviar">
+
+    <p class="forgot-password"><a href="#">Esqueceu sua senha?</a></p>
+    </form>
+</section>
+</body>
+</html>
